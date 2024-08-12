@@ -76,11 +76,6 @@ nav ul li:hover a {
 .link b {
     font-size: 20px;
 }
-
-.box b {
-    padding-left: 15px;
-}
-
 .banner .video {
     width: 180px;
     margin-left: 50px;
@@ -184,9 +179,7 @@ nav ul li:hover a {
     border-radius: 5px;
     line-height: 20px;
     display: inline-block;
-    margin: 10px;
-    margin: 10px;
-    /* width: 400px; */
+    margin: 10px auto;
     width: 100%;
     line-height: 60px;
 }
@@ -501,15 +494,34 @@ footer h3{padding:10px 0 25px 0}
     .z-index { z-index: 99; }
 }
 @media(max-width:480px){
+    .banner h1 {font-size: 22px;padding: 10px 0;}
+    .banner h1:before {width: 80px;}
+    .top p {padding: 5px 0;font-size: 15px; line-height: 15px;}
+    .banner:after{width: 238px; height: 110px; top: 5%;}
+    .banner .buy {line-height: 15px; width: 60px;}
+    .banner .video img {width: 40px;height: 40px;}
+    .banner .bottom {margin: 15px 0;}
+    .banner .box {width: 120px;height: 90px;}
+    .banner .box b {font-size: 20px;}
+    .banner .box p{font-size: 16px;}
+    .banner-box img {width: 600px;height: auto;}
+    .banner-box{width: 157px;}
+    .accesories .btn-wide {margin: auto;}
+    .gallery .mt-200 {margin-top: 20px;}
+    .gallery{padding-top: 20px ;}
+    .gallery  h2{padding-bottom: 0;}
+    .colors h2{padding-bottom: 0;}
+    .gallery p{font-size: 18px;}
+    .check li {font-size: 14px;}
+    .gallery .tabs a {margin: 5px auto;}
+    .color .absolute {bottom: -55px;}
+    .testimonials {margin-top: 35px;padding-bottom: 0;}
+    .testimonials h2{padding:15px 0}
+    .newsletter h2{padding: 20px 0 0 0 ; font-size: 25px;}
     footer img{width: 80%; height: 100%;}
-    footer ul {
-        line-height: 35px;
-    }
-    .color {
-        height: 300px;
-    }
-    footer .links {
-        padding: 10px;}
-        .testimonials .box{padding: 35px 20px;}
-.testimonials .box .flex{padding-top: 35px;}
+    footer ul {line-height: 35px;}
+    .color {height: 300px;}
+    footer .links {padding: 10px;}
+    .testimonials .box{padding: 35px 20px;}
+    .testimonials .box .flex{padding-top: 35px;}
 }
