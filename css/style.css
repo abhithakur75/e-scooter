@@ -193,7 +193,7 @@ nav ul li:hover a {
 }
 
 .color {
-    background: url(/img/colorsmain.png) no-repeat center/cover;
+    background: url(/img/colorsmain.webp) no-repeat center/cover;
     width: 100%;
     height: 870px;
     position: relative;
@@ -275,7 +275,6 @@ nav ul li:hover a {
     font-size: 16px;
 }
 
-/* .testimonials .box .mr-40{margin-bottom: 30px;} */
 .testimonials button {
     border: 1px solid gray;
     border-radius: 50%;
