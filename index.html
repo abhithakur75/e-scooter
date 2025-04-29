@@ -467,7 +467,13 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- main.js -->
     <script src="js/main.js"> </script>
-    <script>AOS.init()</script>
+    <script>
+        // Ensure AOS initializes after the page has loaded
+        window.onload = function() {
+          AOS.init(); // Initialize AOS
+          AOS.refresh(); // Refresh AOS to apply it immediately
+        };
+      </script>
 
 </body>
 
